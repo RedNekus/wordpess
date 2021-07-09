@@ -1,0 +1,15 @@
+.contextual-help-tabs { width: 250px; }
+#contextual-help-back { left: 250px; }
+.contextual-help-tabs a { overflow-wrap: break-word; word-wrap: break-word; hyphens: auto; }
+.contextual-help-tabs-wrap .help-tab-content h3 { margin-bottom: 2px; line-height: 1; }
+.contextual-help-tabs-wrap .help-tab-content h3 + p { margin-top: 2px; }
+.contextual-help-tabs-wrap .help-tab-content li + br { display: none; }
+.contextual-help-tabs-wrap .help-tab-content ul + br { display: none; }
+.acf-input .acf-output {
+    height: 150px;
+    overflow-y: scroll;
+    padding: 0 20px;
+    border: 1px dashed gray;
+    margin-top: 10px;
+    color: lightgray;
+}

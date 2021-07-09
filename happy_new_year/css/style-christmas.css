@@ -1,0 +1,24 @@
+@media (min-width: 900px) {
+    body .top-header, .hidden-sm .main-nav { background-color: #388e3c; margin-top: 0; }
+    body .top-header > .container, .hidden-sm .main-nav .container { background-color: #2a2a2a; }
+    body .top-header { padding-top: 0; }
+    body .top-header > .container { height: 62px; padding-top: 7px; z-index: auto; }
+    .hidden-sm .main-nav {  z-index: auto; }
+	.main-nav .menu_dop_button .icon-menu, .main-nav .menu_dop_button .icon-not_checked { z-index: 108; position: relative; }
+	.main-nav .main-menu { z-index: 101;}
+	.top-header #betonUsersPluginHeader { z-index: 105; }
+	.top-header .logo { z-index: 106; position: relative; }
+	.top-header .notifications_bell { z-index: 107; }
+    body .top-header > .container::before,
+    body .top-header > .container::after { content: url('../img/cristmas_tree.png'); display: block; overflow: hidden; z-index: 102; }
+    body .top-header > .container::before { left:  -46.5px; }
+    body .top-header > .container::after { right: 0;  width: 46.5px; }
+    body .top-header > .container> .row { position: relative; }
+    body .top-header > .container> .row::before,
+    body .top-header > .container> .row::after { position: absolute; top: 0; z-index: 103; }
+    body .top-header > .container> .row::before { content: url('../img/circles_left.png'); left: -25px; }
+    body .top-header > .container> .row::after { content: url('../img/circles_right.png'); right: -25px; }
+    .search-top form.search { position:relative; z-index: 104; }
+	.search-top form.search::after { content: url('../img/hat.png'); position: absolute; top: -14px; right: -12px;}
+	.betonUsersHeaderShow::before { display: none;}
+}
